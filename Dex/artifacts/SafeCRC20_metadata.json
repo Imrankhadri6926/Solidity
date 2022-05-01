@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers around CRC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeCRC20 for ICRC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
+			"kind": "dev",
+			"methods": {},
+			"title": "SafeCRC20",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"token.sol": "SafeCRC20"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"token.sol": {
+			"keccak256": "0x91503acd7d89f216bace2b6dce974f67b03cc4b7043f5d1916c1ba747fb93f5e",
+			"license": "None",
+			"urls": [
+				"bzz-raw://933c6cacd8dc92e871d60757ee3ccb94720f056cfd9cd56005ff457c31a1e8f8",
+				"dweb:/ipfs/QmV6PXVbkpHLJifCjSS1SGgt6hb4ntpARmd1NeSsT7Ud9c"
+			]
+		}
+	},
+	"version": 1
+}
